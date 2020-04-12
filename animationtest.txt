@@ -1,0 +1,2 @@
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://raw.githubusercontent.com/raphaelwalser/askMeAndroidBrief/master/Submarine.json?token=AFLPWFI3E6AWJPGY7M4UXTK6SNQ5S"  background="#2953A6"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
