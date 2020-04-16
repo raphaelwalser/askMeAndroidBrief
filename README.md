@@ -132,8 +132,11 @@ You can see a sample file here: [content.json](content.json)
 ```
 > For easy deployment of changes across platforms, we require you to maintain the structure and integrity of these source files – they may only be refactored by code.
 
+## Content Sections
+
 There are 4 main sections in an answer that are comprised of the following nodes in the .json file:
-## 1 – The Big Picture
+
+### 1 – The Big Picture
 
 - `"summary"` : big bold text separated by green lines
 - `"bullets"` : green bullets, indented text
@@ -141,14 +144,14 @@ There are 4 main sections in an answer that are comprised of the following nodes
 
 > Both the bullets and the advices in the node `"hide"` are initially hidden and can be shown/hidden by clicking "more/less"
 
-## 2 – A Closer Look
+### 2 – A Closer Look
 
 - `"changingLines"` > `"intro"` : big bold text
 - `"changingLines"` > `"lines"` : small paragraph with bold title and alternating background colours.
 
 > Depending on the coin combination thrown, 1-6 of the lines get displayed.
 
-## 3 – On the Horizon
+### 3 – On the Horizon
 > This section is the same as "The Big Picture" but comes from a different answer file, chosen by the algorithm based on the coin combination thrown. In some rare cases the algorithm will replace this section with a hint:
 >> ***This time your answer is short but even more powerful.***\
 *Everything that you need to understand can be found above*
