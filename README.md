@@ -163,7 +163,7 @@ There are 4 main sections in an answer that are comprised of the following nodes
 
 ### 4 – My Interpretation
 
-The user can choose to write their own thoughts here and save it to memory along with their question and the answer found from the I Ching.
+The user can choose to write their own thoughts here and save it to memory along with their question and the answer found.
 
 > A few tags are used for styling:\
 `<bold>` **Bold Text** `</bold>`\
