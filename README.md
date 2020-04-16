@@ -136,16 +136,16 @@ There are 4 main sections in an answer that are comprised of the following nodes
 
 **1 – The Big Picture**
 
-- "summary": big bold text separated by green lines
-- "bullets": green bullets, indented text
-- 	"advices": bold title and small paragraph with alternating background colours.
+- `"summary"` : big bold text separated by green lines
+- `"bullets"` : green bullets, indented text
+- 	`"advices"` : bold title and small paragraph with alternating background colours.
 
 > Both the bullets and the advices in the node "hide" are initially hidden and can be shown/hidden by clicking "more/less"
 
 **2 – A Closer Look**
 
-- "changingLines" > "intro": big bold text
-- "changingLines" > "lines": bold title and small paragraph with alternating background colours.
+- `"changingLines"` > `"intro"` : big bold text
+- `"changingLines"` > `"lines"` : bold title and small paragraph with alternating background colours.
 
 > Depending on the coin combination thrown, 1-6 of the lines get displayed.
 
@@ -155,8 +155,8 @@ There are 4 main sections in an answer that are comprised of the following nodes
 > ***This time your answer is short but even more powerful.***\
 *Everything that you need to understand can be found above*
 
-- "summary": big bold text separated by green lines
-- "bullets": green bullets, indented text 
+- `"summary"` : big bold text separated by green lines
+- `"bullets"` : green bullets, indented text 
 
 > The bullets are initially hidden and can be shown/hidden by clicking "more/less"
 
