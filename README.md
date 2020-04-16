@@ -259,7 +259,7 @@ This is the core functionality of the app where the user gets to ask their quest
 The way you pose your question is important. They can choose from 4 options: **Choice, Strategy, Attitude or Clarity.**
 
 - Robot: *"What can I help you with?*
-- 4 Options (title, brief explanation, icon)
+- 4 options (title, brief explanation, icon)
 - Close function (x) > back to previous context.
 
 ### 2 – Input Question
@@ -303,10 +303,10 @@ When no questions are asked yet or a folder is empty, a robot instructs them to 
 When questions were asked they get listed here.\
 They can be deleted or organised by folders individually or in bulk (edit).
 
-> Free version: Only 3 answers (rest disabled), no folders, no edit/delete)
+> Free version: Only 3 answers (others disabled), no folders, no edit/delete)
 
-- Navigation (Folders, Title, Edit)
-- Question Items (Question, Date, Folder)
+- Navigation (folders, title, edit)
+- Question items (question, date, folder)
 
 ### Folders
 AskMeMore! enables the user to group questions in folders:
@@ -316,7 +316,7 @@ AskMeMore! enables the user to group questions in folders:
 - Switch folder
 
 ### Answer Modal
-Displays a short (condensed) and long (expanded) answer. Some parts can be expanded. Refer to “Content” section for more detailed information.
+Displays a short (condensed) and long (expanded) answer. Some sections can be expanded through a "more/less" button. Refer to [Content](#content) section for more detailed information.
 
 - Question asked (read only)
 - Tabs "Condensed | Expanded"
