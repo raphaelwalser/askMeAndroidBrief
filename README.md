@@ -203,12 +203,12 @@ The animated robots were created as vector animations in [Adobe After Effects](h
 > You can find a sample animation for testing in this repository: [Submarine.json](Submarine.json)\
 > See a preview here: [Animation Preview](https://lottiefiles.com/share/DOsS8v)
 
-The only exception to this is the coin toss animation: Every throw is unique and randomised, hence this will have to be recreated in code.
+The only exception to this is the coin toss animation: Every throw is unique and randomised and animated in code.
 
 # Development
-The iPhone App is coded entirely in [Swift](https://swift.org/). You will get access to our complete code source.
+The iPhone app is coded entirely in [Swift](https://swift.org/). You will get access to our complete code source.
 
-You will be required to implement all functionality as it exists in the existing iOs app (refer to [User Flow Diagram](UserFlowDiagram.png)):
+You will be required to implement all functionality as it exists in the current iOs app (refer to [User Flow Diagram](UserFlowDiagram.png)):
 
 ## Home
 - Launchscreen
@@ -216,20 +216,20 @@ You will be required to implement all functionality as it exists in the existing
 - Hint "start"
 - Possibility of notification (e.g. updates, teasers)
 
-> In the free version a teaser to AskMeMore! is shown.
+> In the free version a teaser to AskMeMore! is shown
 
 ## AskMeMore!
 This modal screen is presented whenever the user tries to access any of the payed features from within the free version:
 
-- open glossary
-- open question older than last 3
-- delete question
-- group question by subject
-- move/delete multiple (edit)
-- expanded answer version
-- touch ID & Pin
+- Open glossary
+- Open question older than last 3
+- Delete question
+- Group question by subject
+- Move/delete multiple (edit)
+- Expanded answer version
+- Touch ID & Pin
 
-Or when clicking on any of the teaser links to AskMeMore! Throughout the app.
+Or when clicking on any of the teaser links to AskMeMore! throughout the app.
 
 - Teaser to all payed features
 - Subscription info (free trial, price/periodicity, local currency)
@@ -239,8 +239,7 @@ Or when clicking on any of the teaser links to AskMeMore! Throughout the app.
 This section consists of three tabs:
 
 ### 1 – About
-Information about the app and how to use it.
-- Short paragraphs separated by lines.
+- Short paragraphs separated by lines
 
 ### 2 – Subscribe
 - Teaser to AskMeMore!
@@ -249,45 +248,45 @@ Information about the app and how to use it.
 > If a subscription is active the AskMeMore! teaser is replaced with a "Thank You!" message.
 
 ### 3 – Glossary
-- Short paragraphs separated by lines.
+- Short paragraphs separated by lines
 
-> Locked in free version > Present subscription modal.
+> Locked in free version > Present subscription modal
 
 ## AskMe!
-This is the core functionality of the app where the user gets to ask their question. This section is presented modally (no other navigation elements visible) in order to focus the user on the task at hand. It is a sequence that cannot only be played forward:
+This is the core functionality of the app where the user gets to ask their question. This section is presented modally (no other navigation elements visible) in order to focus the user on the task at hand. It is a sequence that can only be played forward:
 
 ### 1 – Choose Question Type
-The way you pose your question is important. They can choose from 4 options: Choice, Strategy, Attitude or Clarity.
+The way you pose your question is important. They can choose from 4 options: **Choice, Strategy, Attitude or Clarity.**
 
-- Robot: "What can I help you with?
-- 4 Options (Title, Brief Explanation, Icon)
-- Close function (x) -> back to previous context.
+- Robot: *"What can I help you with?*
+- 4 Options (title, brief explanation, icon)
+- Close function (x) > back to previous context.
 
 ### 2 – Input Question
 Depending on the type chosen, specific instructions are shown to help the user ask his question:
 
-- Header (Title, Brief Explanation, Icon)
-- Question input (Textfield, Button)
-- Instructions (Carousel: 3 Text Screens)
+- Header (title, brief explanation, icon)
+- Question input (textfield, button)
+- Instructions (carousel: 3 text screens)
 
 ### 3 – Coin Toss 
-1. A short instruction screen appears.
+1. A short instruction appears
 2. User shakes phone or taps screen
 3. Coins are animated in (randomly heads or tails)
 4. Robot animation appears (random)
-5. Bulb in progress indicator lights up
-6. Back to step 2
-7. After the 6th toss the algorithm determines the answer
+5. Progress indicator bulb lights up
+6. Back to step 2 – repeat
+7. After the 6th toss, the algorithm determines the answer
 8. All 6 robots ask the user to reveal the answer (segue to answer modal)
 
 > **Please note:** The robots indicate what combination was thrown by white/black elements. These are provided as separate animations that overlay the base animation.
 
 - Question asked (read only)
-- Instructions (Robot, Text)
-- 3 Coins animation (random)
-- 6 Animations
-- Progress Indicator (6 Lightbulbs)
-- Ready (6 Robots, "Reveal" Button, Info)
+- Instructions (robot, text)
+- 3 coins animation (random)
+- 6 animations
+- Progress indicator (6 lightbulbs)
+- Ready (6 robots, button, info)
 
 ## Questions
 All questions asked get automatically saved and listed here.
