@@ -323,18 +323,18 @@ Displays a short (condensed) and long (expanded) answer. Some sections can be ex
 - "Sticky" section titles
 - Formatted text
 - "more/less" (collapse/expand)
-- Textinput
+- Text input
 - Save button
 
 ## Settings
-Configurations and additional functionality is displayed using a master/detail style list.
+Configurations and additional functionality are displayed using a master/detail style list.
 
 ### Subscription
 - Subscribe
-- Restore Existing Subscription
+- Restore existing subscription
 - Subscription Terms and Privacy Policy (link to website)
 
-> If already subscribed a "Thank You!" message is displayed along with the expiration date and a link to manage the subscription.
+> If already subscribed, a "Thank You!" message is displayed along with the expiration date and a link to manage the subscription
 
 ### Touch ID & PIN
 Switch on to enable lock screen: Before the app opens, the user is prompted to authenticate using fingerprint recognition or by entering a passcode.
@@ -353,11 +353,12 @@ Link to App Store page where users can leave a review.
 
 ### About
 - Version number
-- Team (List of Names, Role and Icons)
+- Team (list of names, role and icons)
 - Privacy Policy (text from json)
 - Terms & Conditions (text from json)
 - Open-source Libraries (adapt for Android)
 
+### User Flow Diagram
 ![User Flow Diagram](UserFlowDiagram.png)
 
 # Project Management
