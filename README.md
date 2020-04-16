@@ -68,7 +68,7 @@ To not overwhelm the user with too much text, a condensed version is presented t
 ## Revenue Strategy
 **Freemium Model** – The app is free of charge, but a premium is charged for additional features that expand the functionality of the free version:
 
-- More in-depth Answers (Expanded Version)
+- More in-depth answers (expanded version)
 - Unlimited saved questions (only last 3 in free version)
 - Passcode lock
 - Group questions by subject
@@ -81,6 +81,8 @@ Make yourself familiar with the existing app by downloading it from the [App Sto
 
 Alternatively you can view this [Prototype](https://xd.adobe.com/view/a39d32b0-eea6-4b45-a2ff-353eb534245d/).
 > Please note: The prototype does not represent the current state of the app – some changes to design and functionality have been made since.
+
+A [User flow diagram](UserFlowDiagram.png) can be found in this repository.
 
 # Content
 The copy is provided in json format.\
