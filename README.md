@@ -166,8 +166,8 @@ There are 4 main sections in an answer that are comprised of the following nodes
 The user can choose to write their own thoughts here and save it to memory along with their question and the answer found from the I Ching.
 
 > A few tags are used for styling:\
-`<bold>` **Bold Text** `</bold> `\
-`<italic>` *Italic Text* `</italic> `
+`<bold>` **Bold Text** `</bold>`\
+`<italic>` *Italic Text* `</italic>`\
 `\n` new line
 
 ## Languages
