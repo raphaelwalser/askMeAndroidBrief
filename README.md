@@ -1,7 +1,6 @@
 # AskMe! Android App
-Brief for the development of an Android version of the existing iOs App ["AskMe!"](https://apps.apple.com/app/id1217624457)
+Brief for the development of an Android version of the existing iOs app ["AskMe!"](https://apps.apple.com/app/id1217624457)
 
-- [AskMe! Android App](#askme--android-app)
 - [Overview](#overview)
   * [Background](#background)
   * [Core Functionality](#core-functionality)
@@ -46,18 +45,18 @@ Brief for the development of an Android version of the existing iOs App ["AskMe!
 
 # Overview
 ## Background
-There currently exists an iPhone app named ["AskMe!"](https://apps.apple.com/app/id1217624457).
+There currently exists an iPhone app named ["AskMe!"](https://apps.apple.com/app/id1217624457)
 
-It is based on a book written by [Isabelle Kriegel](http://www.isabellekriegel.com/) – an interpretation of ancient Chinese divination texts also known as [“I Ching”](https://en.wikipedia.org/wiki/I_Ching) or the book of change.
+It is based on a book written by [Isabelle Kriegel](http://www.isabellekriegel.com/) – an interpretation of ancient Chinese divination texts also known as [“I Ching”](https://en.wikipedia.org/wiki/I_Ching) or "The Book of Changes".
 
 In an effort to make the app available to a wider audience, we plan to develop a native Android version.
 
 ## Core Functionality
-The user gets to choose one of four options:
+The user chooses from one of four options:
 
-1. **Choice:** I need to make a decision\
-2. **Strategy:** How do I solve this problem?\
-3. **Attitude:** How should I react\
+1. **Choice:** I need to make a decision
+2. **Strategy:** How do I solve this problem?
+3. **Attitude:** How should I react?
 4. **Clarity:** Help me better understand
 
 Upon choosing, they get prompted to type a question regarding their current life situation. Some information on how to pose a question is provided.
