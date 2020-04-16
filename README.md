@@ -61,7 +61,7 @@ The user chooses from one of four options:
 
 and enters a question regarding their current life situation, using the guidelines provided.
 
-They then shake their phone 6 times to virtually “throw” 3 coins while guided through this process by adorable animated avatars.\ 6 Light bulbs show the progress. The resulting pattern of heads and tails is analysed by an algorithm, choosing the corresponding text from the ["Book of Change"](https://en.wikipedia.org/wiki/I_Ching).
+They then shake their phone 6 times to virtually “throw” 3 coins while guided through this process by adorable animated avatars. Light bulbs show the progress. The resulting pattern of heads and tails is analysed by an algorithm, choosing the corresponding text from the ["Book of Change"](https://en.wikipedia.org/wiki/I_Ching).
 
 To not overwhelm the user with too much text, a condensed version is presented to capture their interest and allow them to dive deeper by expanding sections or opening a more detailed version of the same text.
 
