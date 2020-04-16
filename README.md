@@ -366,10 +366,10 @@ Link to App Store page where users can leave a review.
 
 | Task | raphii (iOs Dev) | Isabelle Kriegel (Client) | You (Android Dev) |
 |:--|:--:|:--:|:--:|
-| Project Brief| x | (x) |  |
+| Project brief| x | (x) |  |
 | Onboarding | x | (x) | (x) |
-| Design Delivery | x |  |  |
-| Content Delivery | (x) | x |  |
+| Design delivery | x |  |  |
+| Content delivery | (x) | x |  |
 | Development |  |  | x |
 | QA check | (x) | (x) | x |
 | Deployment |  |  | x |
@@ -381,12 +381,12 @@ Link to App Store page where users can leave a review.
 
 | Date | Task |
 |:--|:--|
-| Project Brief | 15/04/2020 |
+| Project brief | 15/04/2020 |
 | Offer | TBD |
 | Onboarding | TBD |
 | Delivery (Design & Content) | TBD |
 | Development | TBD |
-| QA Check | TBD |
+| QA check | TBD |
 | Deployment | TBD |
 
 ## Offer
