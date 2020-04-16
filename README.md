@@ -43,15 +43,15 @@ Brief for the development of an Android version of the existing iOs App ["AskMe!
     + [Offer](#offer)
     + [Disclaimer](#disclaimer)
 
-## Overview
-### Background
+# Overview
+## Background
 There currently exists an iPhone app named ["AskMe!"](https://apps.apple.com/app/id1217624457).
 
 It is based on a book written by [Isabelle Kriegel](http://www.isabellekriegel.com/) – an interpretation of ancient Chinese divination texts also known as [“I Ching”](https://en.wikipedia.org/wiki/I_Ching) or the book of change.
 
 In an effort to make the app available to a wider audience, we plan to develop a native Android version.
 
-### Core Functionality
+## Core Functionality
 The user gets to choose one of four options:
 
 1. **Choice:** I need to make a decision\
@@ -65,7 +65,7 @@ They then shake their phone 6 times to virtually “throw” 3 coins. They are g
 
 In an effort to not overwhelm the user with too much text a condensed version is presented to capture their interest and allow them to dive deeper by expanding sections or opening a more detailed version of the same text.
 
-### Revenue Strategy
+## Revenue Strategy
 **Freemium Model** – The app is free of charge, but a premium is charged for additional features that expand the functionality of the free version:
 
 - More in-depth Answers (Expanded Version)
@@ -76,13 +76,13 @@ In an effort to not overwhelm the user with too much text a condensed version is
 - Access to the glossary
  
 
-### Existing App
+## Existing App
 Make yourself familiar with the existing app by downloading it from the [App Store](https://apps.apple.com/app/id1217624457).
 
 Alternatively you can view this [Prototype](https://xd.adobe.com/view/a39d32b0-eea6-4b45-a2ff-353eb534245d/).
 > Please note: The prototype does not represent the current state of the app – some changes to design and functionality have been made since.
 
-## Content
+# Content
 The copy is provided in json format.\
 There are 64 files for the condensed answers and another 64 for the expanded version.
 
@@ -160,7 +160,7 @@ There are 4 main sections in an Answer that are comprised of the following nodes
 `<bold>` **Bold Text** `</bold> `\
 `<italic>` *Italic Text* `</italic> `
 
-### Languages
+## Languages
 The app currently exists in two languages. All the translated copy and graphics needed will be provided.
 
 - [x] **English** (base language)
@@ -169,8 +169,8 @@ The app currently exists in two languages. All the translated copy and graphics 
 
 > Additional languages possible in the future
 
-## Visual Design
-### Graphics
+# Visual Design
+## Graphics
 
 The visual design will be provided in form of:
 
@@ -182,12 +182,12 @@ The visual design will be provided in form of:
 
 > The app was designed for iPhone and is using components, navigation patterns and functionality common or unique to iOs. Though the look and feel should be the same across platforms, we expect that you adapt some aspects to mimic familiar Android patterns.
 
-### Typography
+## Typography
 The app features text heavily, so maintaining user focus and readability is crucial. A lot of effort has gone into crafting an optimal reading experience with a strong visual appeal. We expect a high level of attention to detail in regards to typography and layout.
 
 We use the font [Avenir Next](https://www.fonts.com/font/linotype/avenir-next) which comes pre-installed on iOs devices and can therefore be used for free. This likely won't be the case on Android. To avoid additional licensing costs we might have to find and test a suitable free alternative like [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans).
 
-### Animation
+## Animation
 The animated robots were created as vector animations in [Adobe After Effects](https://www.adobe.com/products/aftereffects.html)  and exported as json with [Bodymovin](http://aescripts.com/bodymovin/). The files can be easily parsed via [Lottie](https://github.com/airbnb/lottie-android) and rendered natively on Android.
 
 We uploaded a sample animation for you to test this out: [Submarine.json](Submarine.json)\
@@ -195,12 +195,12 @@ See a preview here: [Animation Preview](https://lottiefiles.com/share/DOsS8v)
 
 The only exception to this is the coin toss animation: Every throw is unique and randomised, hence this will have to be recreated programmatically.
 
-## Development
+# Development
 The iPhone App is coded entirely in [Swift](https://swift.org/). You will get access to our complete code source.
 
 You will be required to implement all functionality as it exists in the existing iOs app (refer to [User Flow Diagram](UserFlowDiagram.png)):
 
-### Home
+## Home
 - Launchscreen
 - Robot animations
 - Hint "start"
@@ -208,7 +208,7 @@ You will be required to implement all functionality as it exists in the existing
 
 > In the free version a teaser to AskMeMore! is shown.
 
-### AskMeMore!
+## AskMeMore!
 This modal screen is presented whenever the user tries to access any of the payed features from within the free version:
 
 - open glossary
@@ -225,42 +225,42 @@ Or when clicking on any of the teaser links to AskMeMore! Throughout the app.
 - Subscription info (free trial, price/periodicity, local currency)
 - Subscription Terms and Privacy Policy (link to website)
  
-### Info
+## Info
 This section consists of three tabs:
 
-#### 1 – About
+### 1 – About
 Information about the app and how to use it.
 - Short paragraphs separated by lines.
 
-#### 2 – Subscribe
+### 2 – Subscribe
 - Teaser to AskMeMore!
 - Teaser to website email signup (link to website)
 
 > If a subscription is active the AskMeMore! teaser is replaced with a "Thank You!" message.
 
-#### 3 – Glossary
+### 3 – Glossary
 - Short paragraphs separated by lines.
 
 > Locked in free version > Present subscription modal.
 
-### AskMe!
+## AskMe!
 This is the core functionality of the app where the user gets to ask their question. This section is presented modally (no other navigation elements visible) in order to focus the user on the task at hand. It is a sequence that cannot only be played forward:
 
-#### 1 – Choose Question Type
+### 1 – Choose Question Type
 The way you pose your question is important. They can choose from 4 options: Choice, Strategy, Attitude or Clarity.
 
 - Robot: "What can I help you with?
 - 4 Options (Title, Brief Explanation, Icon)
 - Close function (x) -> back to previous context.
 
-#### 2 – Input Question
+### 2 – Input Question
 Depending on the type chosen, specific instructions are shown to help the user ask his question:
 
 - Header (Title, Brief Explanation, Icon)
 - Question input (Textfield, Button)
 - Instructions (Carousel: 3 Text Screens)
 
-#### 3 – Coin Toss 
+### 3 – Coin Toss 
 1. A short instruction screen appears.
 2. User shakes phone or taps screen
 3. Coins are animated in (randomly heads or tails)
@@ -279,18 +279,18 @@ Depending on the type chosen, specific instructions are shown to help the user a
 - Progress Indicator (6 Lightbulbs)
 - Ready (6 Robots, "Reveal" Button, Info)
 
-### Questions
+## Questions
 All questions asked get automatically saved and listed here.
 On iPhone the answers are simply stored on the users device and backed up automatically to the cloud. No user sign up required. No storing of information on remote servers. We would like to maintain this simple approach on Android as well.
 
-#### Empty
+### Empty
 When no questions are asked yet or a folder is empty, a robot instructs them to ask their first question.
 
 - Robot
 - Text
 - Start arrow animation
 
-#### List
+### List
 When questions were asked they get listed here.\
 They can be deleted or organised by folders individually or in bulk (edit).
 
@@ -299,14 +299,14 @@ They can be deleted or organised by folders individually or in bulk (edit).
 - Navigation (Folders, Title, Edit)
 - Question Items (Question, Date, Folder)
 
-#### Folders
+### Folders
 AskMeMore! enables the user to group questions in folders:
 
 - Create/delete folders
 - Add/remove questions
 - Switch folder
 
-#### Answer Modal
+### Answer Modal
 Displays a short (condensed) and long (expanded) answer. Some parts can be expanded. Refer to “Content” section for more detailed information.
 
 - Question asked (read only)
@@ -317,32 +317,32 @@ Displays a short (condensed) and long (expanded) answer. Some parts can be expan
 - Textinput
 - Save button
 
-### Settings
+## Settings
 Configurations and additional functionality is displayed using a master/detail style list.
 
-#### Subscription
+### Subscription
 - Subscribe
 - Restore Existing Subscription
 - Subscription Terms and Privacy Policy (link to website)
 
 > If already subscribed a "Thank You!" message is displayed along with the expiration date and a link to manage the subscription.
 
-#### Touch ID & PIN
+### Touch ID & PIN
 Switch on to enable lock screen: Before the app opens, the user is prompted to authenticate using fingerprint recognition or by entering a passcode.
 
-#### Help/FAQ
+### Help/FAQ
 Scrollable text from a json file (provided).
 
-#### Contact Us
+### Contact Us
 Opens up email client with pre-filled email.
 
-#### Share
+### Share
 Social sharing functionality (e.g. social media, message, email, copy link)
 
-#### Review on the App Store
+### Review on the App Store
 Link to App Store page where users can leave a review.
 
-#### About
+### About
 - Version number
 - Team (List of Names, Role and Icons)
 - Privacy Policy (text from json)
@@ -351,8 +351,8 @@ Link to App Store page where users can leave a review.
 
 ![User Flow Diagram](UserFlowDiagram.png)
 
-## Project Management
-### Responsibilities
+# Project Management
+## Responsibilities
 
 | Task | raphii (iOs Dev) | Isabelle Kriegel (Client) | You (Android Dev) |
 |:--|:--:|:--:|:--:|
@@ -367,7 +367,7 @@ Link to App Store page where users can leave a review.
 
 > (x) = only partial responsibility
 
-### Timeline
+## Timeline
 
 | Date | Task |
 |:--|:--|
@@ -379,7 +379,7 @@ Link to App Store page where users can leave a review.
 | QA Check | TBD |
 | Deployment | TBD |
 
-### Offer
+## Offer
 Please provide us with an offer detailing:
 
 - Scope of your work
@@ -390,7 +390,7 @@ Please provide us with an offer detailing:
 	- Maintenance costs
 - Proposed timeline
 
-### Disclaimer
+## Disclaimer
 These documents may not be used without permission nor passed on to third parties.
 
 You will be required to sign a nondisclosure agreement upon project start.
