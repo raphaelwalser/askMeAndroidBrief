@@ -59,7 +59,7 @@ The user chooses from one of four options:
 3. **Attitude:** How should I react?
 4. **Clarity:** Help me better understand
 
-Upon choosing, they get prompted to type a question regarding their current life situation. Some information on how to pose a question is provided.
+and then enters a question regarding their current life situation using the guidelines provided.
 
 They then shake their phone 6 times to virtually “throw” 3 coins. They are guided through this process by adorable animated avatars. Light bulbs are used to show the progress. The resulting pattern of heads and tails is analysed by an algorithm choosing the corresponding text from the "Book of Change" ([I Ching](https://en.wikipedia.org/wiki/I_Ching)).
 
