@@ -1,7 +1,7 @@
 # AskMe! Android App
 Brief for the development of an Android version of the existing iOs app ["AskMe!"](https://apps.apple.com/app/id1217624457)
 
-- **[Overview](#overview)**
+- [Overview](#overview)
   * [Background](#background)
   * [Core Functionality](#core-functionality)
   * [Revenue Strategy](#revenue-strategy)
