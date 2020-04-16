@@ -79,10 +79,10 @@ To not overwhelm the user with too much text, a condensed version is presented t
 ## Existing App
 Make yourself familiar with the existing app by downloading it from the [App Store](https://apps.apple.com/app/id1217624457).
 
+A [User Flow Diagram](UserFlowDiagram.png) can be found in this repository.
+
 Alternatively you can view this [Prototype](https://xd.adobe.com/view/a39d32b0-eea6-4b45-a2ff-353eb534245d/).
 > Please note: The prototype does not represent the current state of the app – some changes to design and functionality have been made since.
-
-A [User flow diagram](UserFlowDiagram.png) can be found in this repository.
 
 # Content
 The copy is provided in json format.\
@@ -177,7 +177,7 @@ The app currently exists in two languages. All the translated copy and graphics 
 The visual design will be provided in form of:
 
 - Screenshots of all screens
-- [User flow diagram](UserFlowDiagram.png)
+- [User Flow Diagram](UserFlowDiagram.png)
 - Detailed style guide (colours, typography, measurements)
 - [Sketch](https://www.sketch.com/) file
 - Vector graphics of all visual elements (svg, pdf, Illustrator)
