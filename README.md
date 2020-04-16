@@ -7,6 +7,11 @@ Brief for the development of an Android version of the existing iOs app ["AskMe!
   * [Revenue Strategy](#revenue-strategy)
   * [Existing App](#existing-app)
 - [Content](#content)
+  * [Content Sections](#content-sections)
+    + [1 – The Big Picture](#1---the-big-picture)
+    + [2 – A Closer Look](#2---a-closer-look)
+    + [3 – On the Horizon](#3---on-the-horizon)
+    + [4 – My Interpretation](#4---my-interpretation)
   * [Languages](#languages)
 - [Visual Design](#visual-design)
   * [Graphics](#graphics)
@@ -36,12 +41,12 @@ Brief for the development of an Android version of the existing iOs app ["AskMe!
     + [Share](#share)
     + [Review on the App Store](#review-on-the-app-store)
     + [About](#about)
+    + [User Flow Diagram](#user-flow-diagram)
 - [Project Management](#project-management)
   * [Responsibilities](#responsibilities)
   * [Timeline](#timeline)
   * [Offer](#offer)
   * [Disclaimer](#disclaimer)
-
 
 # Overview
 ## Background
@@ -369,7 +374,7 @@ Link to App Store page where users can leave a review.
 | Project brief| x | (x) |  |
 | Onboarding | x | (x) | (x) |
 | Design delivery | x |  |  |
-| Content delivery | (x) | x |  |
+| Content delivery | x | x |  |
 | Development |  |  | x |
 | QA check | (x) | (x) | x |
 | Deployment |  |  | x |
@@ -381,13 +386,14 @@ Link to App Store page where users can leave a review.
 
 | Date | Task |
 |:--|:--|
-| Project brief | 15/04/2020 |
+| Project brief | 16/04/2020 |
 | Offer | TBD |
 | Onboarding | TBD |
 | Delivery (Design & Content) | TBD |
 | Development | TBD |
 | QA check | TBD |
 | Deployment | TBD |
+| Language Adaption | TBD |
 
 ## Offer
 Please provide us with an offer detailing:
@@ -395,6 +401,7 @@ Please provide us with an offer detailing:
 - Scope of your work
 - Technical proposal
 - Cost statement
+	- Detailed for each task
 	- External costs (subscriptions, licensing, etc)
 	- Language adaption costs
 	- Maintenance costs
