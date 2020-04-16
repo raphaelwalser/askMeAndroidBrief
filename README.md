@@ -140,7 +140,7 @@ There are 4 main sections in an answer that are comprised of the following nodes
 - `"bullets"` : green bullets, indented text
 - 	`"advices"` : bold title and small paragraph with alternating background colours.
 
-> Both the bullets and the advices in the node "hide" are initially hidden and can be shown/hidden by clicking "more/less"
+> Both the bullets and the advices in the node `"hide"` are initially hidden and can be shown/hidden by clicking "more/less"
 
 **2 – A Closer Look**
 
