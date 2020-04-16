@@ -163,7 +163,7 @@ There are 4 main sections in an answer that are comprised of the following nodes
 
 ### 4 – My Interpretation
 
-The user can choose to write their own thoughts here and save it to memory along with their question and the answer found.
+The user can choose to write their own thoughts and save it to memory along with their question and the answer found.
 
 > A few tags are used for styling:\
 `<bold>` **Bold Text** `</bold>`\
@@ -200,10 +200,10 @@ We use the font [Avenir Next](https://www.fonts.com/font/linotype/avenir-next) w
 ## Animation
 The animated robots were created as vector animations in [Adobe After Effects](https://www.adobe.com/products/aftereffects.html)  and exported as json with [Bodymovin](http://aescripts.com/bodymovin/). The files can be easily parsed via [Lottie](https://github.com/airbnb/lottie-android) and rendered natively on Android.
 
-We uploaded a sample animation for you to test this out: [Submarine.json](Submarine.json)\
-See a preview here: [Animation Preview](https://lottiefiles.com/share/DOsS8v)
+> You can find a sample animation for testing in this repository: [Submarine.json](Submarine.json)\
+> See a preview here: [Animation Preview](https://lottiefiles.com/share/DOsS8v)
 
-The only exception to this is the coin toss animation: Every throw is unique and randomised, hence this will have to be recreated programmatically.
+The only exception to this is the coin toss animation: Every throw is unique and randomised, hence this will have to be recreated in code.
 
 # Development
 The iPhone App is coded entirely in [Swift](https://swift.org/). You will get access to our complete code source.
