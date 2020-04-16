@@ -41,7 +41,7 @@ Brief for the development of an Android version of the existing iOs app ["AskMe!
     + [Share](#share)
     + [Review on the App Store](#review-on-the-app-store)
     + [About](#about)
-    + [User Flow Diagram](#user-flow-diagram)
+   * [User Flow Diagram](#user-flow-diagram)
 - [Project Management](#project-management)
   * [Responsibilities](#responsibilities)
   * [Timeline](#timeline)
@@ -363,7 +363,7 @@ Link to App Store page where users can leave a review.
 - Terms & Conditions (text from json)
 - Open-source Libraries (adapt for Android)
 
-### User Flow Diagram
+## User Flow Diagram
 ![User Flow Diagram](UserFlowDiagram.png)
 
 # Project Management
