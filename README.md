@@ -161,7 +161,7 @@ There are 4 main sections in an answer that are comprised of the following nodes
 
 > The bullets are initially hidden and can be shown/hidden by clicking "more/less"
 
-## 4 – My Interpretation
+### 4 – My Interpretation
 
 The user can choose to write their own thoughts here and save it to memory along with their question and the answer found from the I Ching.
 
