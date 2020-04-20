@@ -395,6 +395,8 @@ Link to App Store page where users can leave a review.
 | Deployment | TBD |
 | Language Adaption | TBD |
 
+> **TBD** = **T**o **B**e **D**efined
+
 ## Offer
 Please provide us with an offer detailing:
 
@@ -410,6 +412,6 @@ Please provide us with an offer detailing:
 ## Disclaimer
 These documents may not be used without permission nor passed on to third parties.
 
-You will be required to sign a nondisclosure agreement upon project start.
+You will be required to sign a Nondisclosure Agreement (NDA) upon project start.
 
 The work produced for this project will be considered "works made for hire" and Isabelle Kriegel will be the copyright holding author.
