@@ -1,5 +1,5 @@
-# AskMe! Android App
-Brief for the development of an Android version of the existing iOs app ["AskMe!"](https://apps.apple.com/app/id1217624457)
+# AskMe! Now – Android App
+Brief for the development of an Android version of the existing iOs app ["AskMe! Now"](https://apps.apple.com/app/id1217624457)
 
 - [Overview](#overview)
   * [Background](#background)
@@ -50,7 +50,7 @@ Brief for the development of an Android version of the existing iOs app ["AskMe!
 
 # Overview
 ## Background
-There currently exists an iPhone app named ["AskMe!"](https://apps.apple.com/app/id1217624457)
+There currently exists an iPhone app named ["AskMe! Now"](https://apps.apple.com/app/id1217624457)
 
 It is based on a book written by [Isabelle Kriegel](http://www.isabellekriegel.com/) – an interpretation of ancient Chinese divination texts also known as [“I Ching”](https://en.wikipedia.org/wiki/I_Ching) or "The Book of Changes".
 
